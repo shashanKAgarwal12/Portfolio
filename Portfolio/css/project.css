@@ -1,0 +1,107 @@
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background-color: rgb(3, 3, 59);
+}
+
+.heading h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.heading h3 span {
+  color: aqua;
+}
+
+.contact h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 40px;
+  height: 3px;
+  background-color: #43e97b;
+  margin-bottom: 20px;
+}
+
+.info {
+  background-color: rgb(16 20 51);
+  padding: 40px;
+  border-radius: 15px;
+  height: 350px;
+}
+
+.toolbar {
+  margin-bottom: 30px;
+}
+
+.toolbar ul {
+  display: flex;
+}
+
+.toolbar ul li {
+  margin: 0 15px 0px 0px;
+  padding: 5px 15px 0px 15px;
+  font-size: 17px;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.toolbar ul li:hover {
+  background-color: aqua;
+  color: black;
+  font-size: 17px;
+}
+
+.landingPage {
+  width: 50%;
+  float: left;
+  margin: 20px 0;
+  padding: 20px 0px;
+  display: flex;
+  cursor: pointer;
+  border: 2px solid #2d3052;
+  border-radius: 12px;
+}
+
+.landingPage a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  width: 70%;
+  padding-left: 20px;
+}
+
+.landingPage :hover {
+  color: aqua;
+}
+
+.hiddenlink a {
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  background-color: rgb(32 41 74);
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.hiddenlink a i {
+  font-size: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,178 @@
+.flex {
+  display: flex;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  background-color: rgb(3, 3, 59);
+}
+
+.heading h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.heading h3 span {
+  color: aqua;
+}
+
+.contact {
+  padding: 0%;
+}
+
+.contact h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 40px;
+  height: 3px;
+  background-color: #6991c7;
+  margin-bottom: 20px;
+}
+
+.info {
+  background-color: rgb(16 20 51);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.rightsec {
+  width: 50%;
+}
+
+.address {
+  padding: 23px;
+  width: 50%;
+  float: left;
+}
+
+.address h3 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: aqua;
+}
+
+.address .fa {
+  font-size: 24px;
+  margin: 0px 10px;
+}
+
+.address span {
+  color: #a9a9b1;
+}
+
+.email {
+  padding: 23px;
+  width: 50%;
+  float: left;
+}
+
+.email h3 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: aqua;
+}
+
+.email i {
+  font-size: 24px;
+  margin: 0px 10px;
+}
+
+.email span {
+  color: #a9a9b1;
+}
+
+.phone {
+  padding: 23px;
+  width: 50%;
+  float: left;
+}
+
+.phone h3 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: aqua;
+}
+
+.phone i {
+  font-size: 24px;
+  margin: 0px 10px;
+}
+
+.phone span {
+  color: #a9a9b1;
+}
+
+.social {
+  padding: 23px;
+  width: 50%;
+  float: left;
+}
+
+.social h3 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: aqua;
+}
+
+.social i {
+  font-size: 24px;
+  margin: 0px 10px;
+  border-radius: 50px;
+}
+
+.social span {
+  font-size: 23px;
+}
+
+.social a {
+  color: #a9a9b1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.social span:hover {
+  font-size: 1.5rem;
+}
+
+.projects {
+  padding: 23px;
+  width: 50%;
+}
+
+.projects h3 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: aqua;
+}
+
+.projects span {
+  font-size: 23px;
+}
+
+.projects i {
+  font-size: 24px;
+  margin: 0px 10px;
+  border-radius: 50px;
+}
+
+.projects a {
+  color: #a9a9b1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.projects span:hover {
+  font-size: 1.5rem;
+}
